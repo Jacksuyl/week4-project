@@ -22,8 +22,21 @@ console.log(result3); // hi!!!!!
 *******************************************************************************/
 
 function multiMap(val, n, cb) {
-  // Your code here 
+  // Your code here
+  let i=0
+  while(i<n){
+    val=cb(val)
+    i++
+  }
+  return val
 }
+
+let result1 = multiMap(7, 2, function(n) {
+  return n * 10;
+});
+console.log(result1); // 700
+
+
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
