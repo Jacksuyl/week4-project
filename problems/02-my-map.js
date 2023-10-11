@@ -32,6 +32,7 @@ function myMap(array, cb) {
         output.push(cb(element))
     }
     return output
+    //r
 }
 
 let result1 = myMap([100, 25, 81, 64], Math.sqrt);
