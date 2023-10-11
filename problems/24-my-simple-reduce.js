@@ -31,7 +31,9 @@ console.log(result3); // 8
 *******************************************************************************/
 
 function mySimpleReduce(array, cb) {
-  // Your code here 
+  // Your code here
+  let sum = 0;
+  
 }
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
